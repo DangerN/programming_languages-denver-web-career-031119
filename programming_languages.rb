@@ -1,9 +1,9 @@
 require 'pry'
 def reformat_languages(languages)
   new_hash = {}
-  languages.each do | style , lang |
+  languages.each do | style , langs |
     #binding.pry
-    lang.each do | type, tip|
+    lang.each do | lang, type|
       binding.pry
       new_hash = {
       new_hash[type][:type] = tip[:type]
