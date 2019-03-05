@@ -6,8 +6,8 @@ def reformat_languages(languages)
     langs.each do | lang, type|
       #binding.pry
       new_hash[lang] = {:type => (type[:type]), :style => []}
-      #binding.pry
+      binding.pry
     end
   end
-  binding.pry
+  #binding.pry
 end
